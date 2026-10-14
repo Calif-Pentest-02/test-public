@@ -1,0 +1,9 @@
+{
+  "name": "cfgsvc-profile-schema",
+  "version": "1.4.2",
+  "description": "Profile table schema constants for the appliance fleet tooling",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node ./scripts/fetch-schema.js"
+  }
+}
